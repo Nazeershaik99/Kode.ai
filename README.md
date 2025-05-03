@@ -240,3 +240,5 @@ Lot more updates to this roadmap coming soon!
 ## FAQ
 
 [Please check out our dedicated page for FAQ's related to Bolt.diy here!](FAQ.md)
+
+nazeer
