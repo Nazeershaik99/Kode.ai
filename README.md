@@ -99,8 +99,8 @@ Option 1: Using NPM Scripts
 bash
 Copy
 Edit
-npm run dockerbuild        # Development
-npm run dockerbuild:prod   # Production
+npm run dockerbuild # Development
+npm run dockerbuild:prod # Production
 Option 2: Direct Docker Commands
 bash
 Copy

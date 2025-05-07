@@ -33,7 +33,7 @@ theme:
   # favicon: assets/logo.png
 repo_name: Bolt.diy
 repo_url: https://github.com/stackblitz-labs/bolt.diy
-edit_uri: ""
+edit_uri: ''
 
 extra:
   generator: false
@@ -44,7 +44,6 @@ extra:
     - icon: fontawesome/brands/discourse
       link: https://thinktank.ottomator.ai/
       name: Bolt.diy Discourse
-
 
 markdown_extensions:
   - pymdownx.highlight:
