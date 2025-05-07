@@ -152,7 +152,7 @@ pnpm run deploy — Deploy to production
 pnpm run lint:fix — Auto-fix lint issues
 
 Contribution Guide
-Interested in contributing? Fork, clone, enhance, and open a pull request. Help improve Kode.ai by fixing bugs, adding features, or enhancing documentation.
+Interested in contributing? Fork, clone, enhance, and open a pull request. Help improve Kode.ai by fixing bugs, adding features, or enhancing documentation. modified
 
 Roadmap
 Future plans include more model integrations, advanced deployment tools, project planning features, and IDE extensions. Stay tuned as the community continues to evolve this powerful tool for developers.
