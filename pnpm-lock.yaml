@@ -179,6 +179,9 @@ importers:
       jszip:
         specifier: ^3.10.1
         version: 3.10.1
+      miniflare:
+        specifier: ^3.20240416.0
+        version: 3.20250408.1
       nanostores:
         specifier: ^0.10.3
         version: 0.10.3
@@ -232,7 +235,7 @@ importers:
         specifier: ^4.20241127.0
         version: 4.20250508.0
       '@remix-run/dev':
-        specifier: ^2.15.0
+        specifier: ^2.16.5
         version: 2.16.5(@remix-run/react@2.16.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3))(@types/node@14.18.33)(sass-embedded@1.87.0)(ts-node@10.9.1(@types/node@14.18.33)(typescript@5.8.3))(typescript@5.8.3)(vite@5.4.19(@types/node@14.18.33)(sass-embedded@1.87.0))(wrangler@3.114.8(@cloudflare/workers-types@4.20250508.0))
       '@types/diff':
         specifier: ^5.2.3
@@ -298,7 +301,7 @@ importers:
         specifier: ^2.1.7
         version: 2.1.9(@edge-runtime/vm@3.0.3)(@types/node@14.18.33)(sass-embedded@1.87.0)
       wrangler:
-        specifier: ^3.91.0
+        specifier: ^3.44.0
         version: 3.114.8(@cloudflare/workers-types@4.20250508.0)
       zod:
         specifier: ^3.23.8
@@ -2235,6 +2238,10 @@ packages:
   '@remix-run/router@1.7.2':
     resolution: {integrity: sha512-7Lcn7IqGMV+vizMPoEl5F0XDshcdDYtMI6uJLQdQz5CfZAwy3vvGKYSUk789qndt5dEC4HfSjviSYlSoHGL2+A==}
     engines: {node: '>=14'}
+
+  '@remix-run/server-runtime@1.19.3':
+    resolution: {integrity: sha512-KzQ+htUsKqpBgKE2tWo7kIIGy3MyHP58Io/itUPvV+weDjApwr9tQr9PZDPA3yAY6rAzLax7BU0NMSYCXWFY5A==}
+    engines: {node: '>=14.0.0'}
 
   '@remix-run/server-runtime@2.16.5':
     resolution: {integrity: sha512-LGGNEJoior2zvgtqyPC5tVPucAvewovQvL4ztC5yE8ZszHmLri9bB9YYWvHqsiT+EaunKHNLmI8jpJHe3PEKhA==}
@@ -8393,7 +8400,7 @@ snapshots:
 
   '@remix-run/node@1.19.3':
     dependencies:
-      '@remix-run/server-runtime': 2.16.5
+      '@remix-run/server-runtime': 1.19.3
       '@remix-run/web-fetch': 4.4.2
       '@remix-run/web-file': 3.1.0
       '@remix-run/web-stream': 1.1.0
@@ -8431,7 +8438,7 @@ snapshots:
 
   '@remix-run/router@1.7.2': {}
 
-  '@remix-run/server-runtime@2.16.5':
+  '@remix-run/server-runtime@1.19.3':
     dependencies:
       '@remix-run/router': 1.7.2
       '@types/cookie': 0.4.1
@@ -8677,7 +8684,7 @@ snapshots:
 
   '@types/node-fetch@2.6.3':
     dependencies:
-      '@types/node': 14.18.33
+      '@types/node': 22.15.16
       form-data: 3.0.3
 
   '@types/node@14.18.33': {}
